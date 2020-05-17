@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>utinder-home</title>
+<link href="../../_common/images/favicon.ico" rel="shortcut icon">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+<link href="../../_common/css/style.css" rel="stylesheet">
+</head>
+<style>
+    section img{
+        max-width:100%;
+    }
+    .center{
+    max-width: 90%;
+    width: 500px;}
+</style>
+<body>
+<header>
+<div class="container">
+<h1>UTinder</h1>
+<h2>東大生と雑談しませんか？</h2>
+</div><!-- /.container -->
+</header>
+<main>
+<div class="container">
+<section>
+    <p id='setsumei'>UTinder</p>
+    <div class=center>
+        <div style ="text-align:left">
+            <img src="main.jpg" id="profphoto">
+        </div>
+    </div>
+    <p>相手の東大生をランダムに探す</p>
+<form  id="form">
+    <input type="submit" value="検索">
+</form>
+</section>
+</div><!-- /.container -->
+</main>
+<footer>
+<div class="container">
+<p>参加者募集中</p>
+</div><!-- /.container -->
+</footer>
+<script src="script.js"></script>
+<script>
+    'use strict';
+    const numberofmember = 2;
+    let who;
+
+　document.getElementById('form').onsubmit = function(event){
+   event.preventDefault();
+   who = Math.floor(Math.random() * numberofmember) +1;
+   if(who === 1){
+    location.href = 'index-fivegod.html';
+}else if(who === 2){
+    location.href = 'index-noda.html';
+    console.log(who);
+}
+}
+
+document.getElementById('setsumei').textContent =　'UTinderの説明文。';
+ 
+
+    
+</script>
+</body>
+</html>
