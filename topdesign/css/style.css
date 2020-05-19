@@ -181,7 +181,7 @@ section h2{
 .twoways{
 	
 	width: 60%;
-	height:700px;
+	
 	
 	padding: 0 40px;
 	text-align:center;
@@ -620,6 +620,8 @@ section h2{
 	max-width: 288px;
 	}
 }
+.illustmain{
+	opacity:0;}
 
 @media only screen and (max-width: 1199px){
 	section h2{
