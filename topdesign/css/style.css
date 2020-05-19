@@ -549,9 +549,7 @@ section h2{
 	}
 }
 
-<!-- UTinderの仕組みの文字を透明化する-->
-.illustmain p{
-	opacity:0;}
+
 
 @media only screen and (max-width: 1199px){
 	section h2{
