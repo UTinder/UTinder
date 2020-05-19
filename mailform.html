@@ -1,0 +1,35 @@
+<!-- formタグによるフォームメールCGI呼び出し -->
+<form action="http://www2.tba.t-com.ne.jp/cgi-bin/form.cgi" method="post">
+<!-- 入力の項目の開始 -->
+<p>ニックネーム：<input type="text" name="ニックネーム" size="25"></p>
+<p>メールアドレス：<input type="text" name="email" size="25"></p>
+<p>性別：<input type="radio" name="性別" value="男性">男性<input type="radio" name="性別" value="女性">女性</p>
+<p>趣味：<input type="checkbox" name="趣味" value="インターネット">インターネット<input type="checkbox" name="趣味" value="スポーツ">スポーツ<input type="checkbox" name="趣味" value="アウトドア">アウトドア</p>
+<p>どこでこのホームページを知りましたか？<select name="どこでこのホームページを知りましたか？">
+<option>以下から選択してください。</option>
+<optgroup label="インターネットの検索エンジン">
+<option value="Yahoo! Japan">Yahoo! Japan</option>
+<option value="Google">Google</option>
+<option value="goo">goo</option>
+</optgroup>
+<optgroup label="その他">
+<option value="友達からの紹介">友達からの紹介</option>
+<option value="その他">その他</option>
+</optgroup>
+</select>
+</p>
+<!-- フォームメールの送信先メールアドレス -->
+<input type="hidden" name="tomail" value="utinder.ut@gmail.com">
+
+<!-- フォームメールの送信されるメールの件名 -->
+<input type="hidden" name="tosubj" value="メールの件名">
+
+<!-- フォームメールの送信されるメールの出力形式 -->
+<!-- 「ALL」で送信日時、「TAB」でTAB区切り、「CR」で改行区切り。 いずれも大文字で記述-->
+<!-- 何も指定しない場合は、nameで指定した値＝入力値として出力される。 -->
+<input type="hidden" name="todelim" value="ALL">
+
+<!-- フォームメールのボタン -->
+<p><input type="submit" value="送　信"><input type="reset" value="リセット"> </p>
+<!-- formの終了タグ -->
+</form>
