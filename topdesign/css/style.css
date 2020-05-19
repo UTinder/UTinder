@@ -295,80 +295,8 @@ section h2{
 .footer a{
 	color:black;
 }
-/* SEC03 SERVICE MESSAGE STORY
-------------------------------------------------------------*/
-.col3 li{
-	margin-bottom: 50px;
-}
 
-.col3 img{
-	max-width: 288px;
-	display: block;
-	margin: -5px auto 20px;
-}
-
-
-/* SEC04 STORY & SUCCESS
-------------------------------------------------------------*/
-#sec04{
-	background: url(../images/bgSec04.jpg) no-repeat 100% 100% fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-	color: #fff;
-}
-
-
-/* SEC05 PROFILE
-------------------------------------------------------------*/
-#sec05{
-	padding-top: 50px;
-}
-
-#sec05 dl{
-	line-height: 1.2;
-}
-
-#sec05 dt{
-	clear: left;
-	float: left;
-	display: block;
-	width: 30%;
-	margin-right: 10%;
-	margin-bottom: 20px;
-	text-align: right;
-	line-height: 1.6em;
-}
-
-#sec05 dd{
-	width: 60%;
-	float: left;
-	text-align: left;
-	margin-bottom: 15px;
-	line-height: 1.6em;
-}
-
-#sec05 header{
-	display: none;
-}
-
-#map{
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
-}
-
-#map iframe{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-	border: 0;
-}
-
-
-/* RESPONSIVE 設定
+/*以下は画面のサイズに応じて表示内容を変えるための設定
 ------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px){
@@ -620,7 +548,9 @@ section h2{
 	max-width: 288px;
 	}
 }
-.illustmain{
+
+<!-- UTinderの仕組みの文字を透明化する-->
+.illustmain p{
 	opacity:0;}
 
 @media only screen and (max-width: 1199px){
