@@ -77,14 +77,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 
-/* フッター
-------------------------------------------------------------*/
-#footer{
-	clear: both;
-	padding: 50px 10px 50px 0;
-	text-align: center;
-	font-size: 12px;
-}
+
 
 
 /* 共通
@@ -106,20 +99,8 @@ section h2{
 	text-align: center;
 }
 
-.inner{
-	width: 94%;
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
 
-.col2 li{
-	display: inline-block;
-	width: 100%;
-  	margin: 20px 0 20px 0;
-}
-
-
-/* SEC01 VISION
+/* UTinderとは
 ------------------------------------------------------------*/
 #sec01{
 	margin:0 auto;
@@ -173,7 +154,7 @@ section h2{
 
 
 
-/* SEC02 MESSAGE
+/* UTinderを始める
 ------------------------------------------------------------*/
 #sec02{
 	margin:0 auto;
@@ -274,41 +255,30 @@ section h2{
 	opacity: 1;
 }
 
-.wrap{
-	clear: both;
-	width: 100%;
-	background: #f6f6f6;
-}
 
-.bg{
-	line-height: 0;
-}
 
-.txt h2{
-	padding: 0 0 20px !important;
-}
-
+/* フッタ―設定----------------------------------------------*/
 #footer{
 	background-color:rgba(43, 41, 41, 0.671);
-	height:100px;
+	height:120px;
+	margin-top: 70px;
+	text-align: center;
 }
 .footer a{
 	color:black;
 }
+.footer h2{
+	padding-bottom: 0;
 
-/*以下は画面のサイズに応じて表示内容を変えるための設定
+}
+
+/* RESPONSIVE 設定
 ------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px){
-	.inner{
-		width: 1024px;
-		padding-bottom: 120px;
-	}
+	
 	section h2{
 		padding: 40px 0 20px;
-	}
-	.txt h2{
-		padding: 0 0 20px !important;
 	}
 }
 
@@ -357,45 +327,6 @@ section h2{
 		padding: 20px 10px;
 	}
 
-	/* SEC02 MESSAGE
-	-----------------*/
-	.txt, .bg{
-		width: 50%;
-		float: left;
-		display: table;
-	background: #f6f6f6;
-	}
-
-	#sec02_02 .txt, #sec02_02 .bg{
-		float: right;
-	}
-
-	.vMid{
-		display: table-cell;
-		padding: 0 100px;
-		vertical-align: middle;
-	}
-	
-	/* SEC03 SERVICE MESSAGE STORY
-	-----------------*/
-	.col3{
-		text-align: center;
-	}
-
-	.col3 li{
-		display: inline-block;
-		width: 30%;
-		padding: 0 1.5%;
-		margin-bottom: 0;
-		vertical-align: top;
-		text-align: left;
-	}
-	
-	/* SEC05 PROFILE
-	-----------------*/
-	#sec05{
-		padding-top: 120px;
-	}
 	
   #footer{
 		padding: 30px 10px 70px 0;
@@ -403,19 +334,12 @@ section h2{
 }
 
 @media only screen and (min-width: 641px){
-	.col2 li{
-		width: 40%;
-		padding: 0 3%;
-		vertical-align: top;
-	}
+	
 	
 }
 
 @media only screen and (max-width: 640px){
-	#map iframe{
-	  width: 96% !important;
-		left: 2%;
-	}
+	
 	.twoways ul{
 		display: flex;
 		flex-wrap: wrap;
@@ -425,6 +349,7 @@ section h2{
 		width:100%;
 		margin:0 auto;
 	}
+	
 }
 
 @media only screen and (max-width: 799px){
@@ -542,15 +467,9 @@ section h2{
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
-	.col3 li{
-		margin: 0 auto;
-		display: block;
-	max-width: 288px;
-	}
+	
+	
 }
-<!-- UTinderの仕組みの文字を透明化する-->
-.illustmain p{
-	opacity:0;}
 
 
 @media only screen and (max-width: 1199px){
@@ -559,8 +478,5 @@ section h2{
 	}
 	#sec01 h2{
 		padding: 70px 0 20px;
-	}
-	.vMid{
-		padding: 0 20px;
 	}
 }
