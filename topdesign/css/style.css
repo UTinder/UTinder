@@ -349,6 +349,19 @@ section h2{
 		width:100%;
 		margin:0 auto;
 	}
+	.illustration{
+		border-bottom: none;
+		height: 850px;
+	}
+	.illustmain{
+		width:100%;
+	}
+	.arrowimg {
+		opacity:0;
+	}
+	.aboututinder{
+		
+	}
 	
 }
 
@@ -468,7 +481,13 @@ section h2{
 		transform: rotate(45deg);
 	}
 	
-	
+	.illustration{
+		
+		height: 300px;
+	}
+	.twoways{
+		width:90%;
+	}
 }
 
 
