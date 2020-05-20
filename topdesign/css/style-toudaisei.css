@@ -77,14 +77,6 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 
-/* フッター
-------------------------------------------------------------*/
-#footer{
-	clear: both;
-	padding: 50px 10px 50px 0;
-	text-align: center;
-	font-size: 12px;
-}
 
 
 /* 共通
@@ -106,29 +98,32 @@ section h2{
 	text-align: center;
 }
 
-.inner{
-	width: 94%;
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
+/*会員登録ページへのリンク--------*/
+.fortoudaisei {
+	padding-top: 40px;
+   }
+   .fortoudaisei a{
+	   display: inline-block;
+	   height:30px;
+	   line-height: 30px;
+	   width: 200px;
+	   background-color: #000;
+	   color:white;
+	   border-radius: 10px;
+	   opacity:0.7;
+   }
 
-.col2 li{
-	display: inline-block;
-	width: 100%;
-  	margin: 20px 0 20px 0;
-}
-
-
-/* SEC01 VISION
+/* メイン部分
 ------------------------------------------------------------*/
 #sec01{
 	margin:0 auto;
+
 	
 }
 .toudaiseisignup{
 	text-align: center;
-	margin:0 auto;
-	margin-bottom: 100px;
+	margin:30px auto 30px auto;
+	
 }
 .toudaiseisignup a{
 	font-size: 22px;
@@ -138,41 +133,18 @@ section h2{
 	margin-bottom: 100px;
 	padding:5px;
 	border:2px solid crimson;
+	border-radius: 6px;
 }
 
-.oneline{}
-
-.year{
-	width:30px;
-}
-
-.conditionselect{}
-
-.submitbtn{}
 
 
-
-
-
-.fortoudaisei {
- padding-top: 40px;
-}
-.fortoudaisei a{
-	display: inline-block;
-	height:30px;
-	line-height: 30px;
-	width: 200px;
-	background-color: #000;
-	color:white;
-	border-radius: 10px;
-	opacity:0.7;
-}
 
 .aboututinder{
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 0px;
 	text-align: center;
+	
 	
 }
 .illustration {
@@ -200,150 +172,47 @@ section h2{
 	
 }
 
+/* フォーム部分（試作） --*/
+.oneline{}
 
-
-
-/* SEC02 MESSAGE
-------------------------------------------------------------*/
-#sec02{
-	margin:0 auto;
+.year{
+	width:30px;
 }
 
-.btn{
-	
-	height:50px;
-	
-	padding-bottom:4px;
-	display:inline-block;
-	border-radius: 6px;
-	color :black;
-	font-size:20px;
-	font-weight: bold;
-	
-}
-.btn:hover {
-	opacity: 0.5;
-}
+.conditionselect{}
 
-.nowstart{
-	width:200px;
-	background-color: cyan;
-	opacity: 1;
-}
-.conditionstart{
-	width:200px;
-	background-color: crimson;
-	opacity: 1;
-}
+.submitbtn{}
 
-.wrap{
-	clear: both;
-	width: 100%;
-	background: #f6f6f6;
-}
 
-.bg{
-	line-height: 0;
-}
 
-.txt h2{
-	padding: 0 0 20px !important;
-}
 
+
+/* フッタ―設定----------------------------------------------*/
 #footer{
 	background-color:rgba(43, 41, 41, 0.671);
-	height:100px;
+	height:120px;
+	margin-top: 70px;
+	text-align: center;
 }
 .footer a{
 	color:black;
 }
-/* SEC03 SERVICE MESSAGE STORY
-------------------------------------------------------------*/
-.col3 li{
-	margin-bottom: 50px;
+.footer h2{
+	padding-bottom: 0;
+
 }
 
-.col3 img{
-	max-width: 288px;
-	display: block;
-	margin: -5px auto 20px;
-}
-
-
-/* SEC04 STORY & SUCCESS
-------------------------------------------------------------*/
-#sec04{
-	background: url(../images/bgSec04.jpg) no-repeat 100% 100% fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-	color: #fff;
-}
-
-
-/* SEC05 PROFILE
-------------------------------------------------------------*/
-#sec05{
-	padding-top: 50px;
-}
-
-#sec05 dl{
-	line-height: 1.2;
-}
-
-#sec05 dt{
-	clear: left;
-	float: left;
-	display: block;
-	width: 30%;
-	margin-right: 10%;
-	margin-bottom: 20px;
-	text-align: right;
-	line-height: 1.6em;
-}
-
-#sec05 dd{
-	width: 60%;
-	float: left;
-	text-align: left;
-	margin-bottom: 15px;
-	line-height: 1.6em;
-}
-
-#sec05 header{
-	display: none;
-}
-
-#map{
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
-}
-
-#map iframe{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-	border: 0;
-}
 
 
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px){
-	.inner{
-		width: 1024px;
-		padding-bottom: 120px;
-	}
+	
 	section h2{
 		padding: 40px 0 20px;
 	}
-	.txt h2{
-		padding: 0 0 20px !important;
-	}
+	
 }
 
 @media only screen and (min-width: 800px){
@@ -391,45 +260,7 @@ section h2{
 		padding: 20px 10px;
 	}
 
-	/* SEC02 MESSAGE
-	-----------------*/
-	.txt, .bg{
-		width: 50%;
-		float: left;
-		display: table;
-	background: #f6f6f6;
-	}
-
-	#sec02_02 .txt, #sec02_02 .bg{
-		float: right;
-	}
-
-	.vMid{
-		display: table-cell;
-		padding: 0 100px;
-		vertical-align: middle;
-	}
 	
-	/* SEC03 SERVICE MESSAGE STORY
-	-----------------*/
-	.col3{
-		text-align: center;
-	}
-
-	.col3 li{
-		display: inline-block;
-		width: 30%;
-		padding: 0 1.5%;
-		margin-bottom: 0;
-		vertical-align: top;
-		text-align: left;
-	}
-	
-	/* SEC05 PROFILE
-	-----------------*/
-	#sec05{
-		padding-top: 120px;
-	}
 	
   #footer{
 		padding: 30px 10px 70px 0;
@@ -437,19 +268,12 @@ section h2{
 }
 
 @media only screen and (min-width: 641px){
-	.col2 li{
-		width: 40%;
-		padding: 0 3%;
-		vertical-align: top;
-	}
+	
 	
 }
 
 @media only screen and (max-width: 640px){
-	#map iframe{
-	  width: 96% !important;
-		left: 2%;
-	}
+	
 	.twoways ul{
 		display: flex;
 		flex-wrap: wrap;
@@ -458,6 +282,9 @@ section h2{
 	.twoways li{
 		width:100%;
 		margin:0 auto;
+	}
+	.aboututinder{
+		height:1200px;
 	}
 	
 }
@@ -577,15 +404,16 @@ section h2{
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
-	.col3 li{
-		margin: 0 auto;
-		display: block;
-	max-width: 288px;
-	}
+	
 	.illustmain{
 		width:100%;
 	}
-	
+	.arrowimg {
+		opacity:0;
+	}
+	.aboututinder{
+		height: 1300px;
+	}
 }
 
 
@@ -596,7 +424,5 @@ section h2{
 	#sec01 h2{
 		padding: 70px 0 20px;
 	}
-	.vMid{
-		padding: 0 20px;
-	}
+	
 }
