@@ -98,7 +98,7 @@ section h2{
 	text-align: center;
 }
 
-/*会員登録ページへのリンク--------*/
+/*メインページへのリンク--------*/
 .fortoudaisei {
 	padding-top: 40px;
    }
@@ -118,7 +118,7 @@ section h2{
 #sec01{
 	margin:0 auto;
 
-	
+/*会員登録ページへのリンク*/
 }
 .toudaiseisignup{
 	text-align: center;
@@ -129,14 +129,20 @@ section h2{
 	font-size: 22px;
 	color:black;
 	text-align: center;
-	margin:0 auto;
+	margin:5px auto;
 	margin-bottom: 100px;
 	padding:5px;
-	border:2px solid crimson;
+	
 	border-radius: 6px;
 }
 
-
+.gotosignup{
+	border:2px solid rgb(50, 20, 220);
+}
+.gotosignin{
+	
+	border:2px solid crimson;
+}
 
 
 .aboututinder{
@@ -153,12 +159,13 @@ section h2{
 	margin-bottom:30px ;
 	height:250px;
 	padding-top:40px;
-	
+	text-align: center;
 	
 }
 .illustration li{
 	
-	float: left;
+	float:left;
+	
 }
 .illustmain{
 	width:28%;
@@ -188,18 +195,22 @@ section h2{
 
 
 /* フッタ―設定----------------------------------------------*/
-#footer{
+.footer{
 	background-color:rgba(43, 41, 41, 0.671);
-	height:120px;
+	height:180px;
 	margin-top: 70px;
 	text-align: center;
 }
 .footer a{
-	color:black;
+	color:#d1d1d1;
 }
 .footer h2{
 	padding-bottom: 0;
-
+}
+.footermenu {
+	
+	padding: 10px;
+	
 }
 
 

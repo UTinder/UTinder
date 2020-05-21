@@ -5,7 +5,7 @@
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
 address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
-ul{list-style:none;}
+
 table{border-collapse:collapse;border-spacing:0;}
 caption,th{text-align:left;}
 q:before,q:after{content:'';}
@@ -27,32 +27,13 @@ a{
 	color: #0066ff;
 	text-decoration: none;
 }
-
-a:hover, .active{
-  
-}
-
-a:active, a:focus,input:active, input:focus{outline:0;}
-
-
-/* ヘッダー
-------------------------------------------------------------*/
 #header{
 	position: relative;
     overflow:hidden;
     width:100%;
-	height:400px;
+	height:150px;
 	background-color: crimson;
 }
-
-#header img{
-    position:absolute;
-    left:50%;
-    width:1280px;
-    height:568px;
-    margin-left:-640px;
-}
-
 #slogan{
 	position: absolute;
   top: 50%;
@@ -75,194 +56,36 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	font-size: 20px;
 	font-weight:normal;
 }
-
-
-
-
-
-/* 共通
-------------------------------------------------------------*/
-h1, h2{
-	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+.formembers{
+	width:50%;
+	margin:40px auto 0 auto;
 }
 
-img{
-	width: 100%;
-	height: auto;
+.top{text-align:center;
+margin-bottom: 50px;}
+.top h2{
+	font-size:30px;
 }
 
-section{clear:both;}
-
-section h2{
-	font-size: 22px;
-	font-weight:normal;
-	text-align: center;
-}
-
-
-/* UTinderとは
-------------------------------------------------------------*/
-#sec01{
-	margin:0 auto;
-	
-}
-.fortoudaisei {
- padding-top: 40px;
-}
-.fortoudaisei a{
-	display: inline-block;
-	height:30px;
-	line-height: 30px;
-	width: 200px;
-	background-color: #000;
-	color:white;
-	border-radius: 10px;
-	opacity:0.7;
-}
-
-.aboututinder{
-	width: 60%;
-	margin: 0 auto;
-	padding-bottom: 40px;
-	text-align: center;
-	
-}
-.illustration {
-	list-style: none;
-	width:100%;
-	margin-bottom:30px ;
-	height:250px;
-	padding-top:40px;
-	border-bottom:1px solid slategray;
-	
-}
-.illustration li{
-	
-	float: left;
-}
-.illustmain{
-	width:28%;
-}
-.iconimg{
-	width:40%;
-}
-.arrowimg{
-	width:5%;
-	padding-top:70px;
-}
-
-
-
-
-/* UTinderを始める
-------------------------------------------------------------*/
-#sec02{
-	margin:0 auto;
-}
-.twoways{
-	
-	width: 60%;
-	
-	
-	padding: 0 40px;
-	text-align:center;
-	clear: both;
-	
-	margin:0 auto;
-	
-}
-.twoways h2{
-	font-size:22px;
-}
-.explanation{
-	
-	padding:20px;
-	margin:0 auto;
-	
-
-}
-/*
-.twoways ul{
-	display: flex;
-	margin: 0 auto;
-	
-}
-*/
-.twoways li{
-	list-style: none;
-	/*予約制のみバージョン*/
-	width:70%;
-	margin:0 auto;
-}
-
-.startnow{
-	padding:10px;
-	
-}
-.startnow h2{
-	
-	text-decoration: underline cyan;
-	
-}
-.condition{
-	padding:10px;
-	
-}
-.condition h2{
-	
-	text-decoration: underline  crimson;
-}
-.startnowimg{
-	width:90%;
-	
-}
-.conditionimg{
-	width: 90%;
-	
-}
-
-
-
-
-.email{
-	width: 90%;
-	margin-top:10px;
-	margin-bottom: 10px;
-	padding:5px;
-	font-size: 18px;
-	border:1px solid #dee7ec
-}
-.btn{
-	
-	height:50px;
-	
-	padding-bottom:4px;
-	display:inline-block;
-	border-radius: 6px;
-	color :black;
-	font-size:20px;
+.formembers a{
+	color:blue;
 	font-weight: bold;
-	
 }
-.btn:hover {
-	opacity: 0.5;
+.formembers p{
+	text-align: center;
 }
+.formembers ul{
+	color: black; 
+  border: double 5px black;/*二重線 太さ 色*/
+  border-radius: 6px;
+  background:; 
+  padding: 0.5em 0.5em 0.5em 2em;
 
-.nowstart{
-	width:200px;
-	background-color: cyan;
-	opacity: 1;
-}
-.conditionstart{
-	width:200px;
-	background-color: crimson;
-	opacity: 1;
+	text-align: left;
 }
 
 
-
-/* フッタ―設定----------------------------------------------*/
-#footer{
+.footer{
 	background-color:rgba(43, 41, 41, 0.671);
 	height:180px;
 	margin-top: 70px;
@@ -489,11 +312,7 @@ section h2{
 		transform: rotate(45deg);
 	}
 	
-	.illustration{
-		
-		height: 300px;
-	}
-	.twoways{
+	.formembers{
 		width:90%;
 	}
 }

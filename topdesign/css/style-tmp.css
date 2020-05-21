@@ -151,18 +151,21 @@ section h2{
 /* フッタ―設定----------------------------------------------*/
 #footer{
 	background-color:rgba(43, 41, 41, 0.671);
-	height:120px;
+	height:180px;
 	margin-top: 70px;
 	text-align: center;
 }
 .footer a{
-	color:black;
+	color:#d1d1d1;
 }
 .footer h2{
 	padding-bottom: 0;
-
 }
-
+.footermenu {
+	
+	padding: 10px;
+	
+}
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
 

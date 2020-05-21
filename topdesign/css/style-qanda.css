@@ -99,139 +99,14 @@ section h2{
 	text-align: center;
 }
 
-
-/* UTinderとは
-------------------------------------------------------------*/
-#sec01{
-	margin:0 auto;
-	
-}
-.fortoudaisei {
- padding-top: 40px;
-}
-.fortoudaisei a{
-	display: inline-block;
-	height:30px;
-	line-height: 30px;
-	width: 200px;
-	background-color: #000;
-	color:white;
-	border-radius: 10px;
-	opacity:0.7;
-}
-
-.aboututinder{
+.container{
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 40px;
-	text-align: center;
-	
-}
-.illustration {
-	list-style: none;
-	width:100%;
-	margin-bottom:30px ;
-	height:250px;
-	padding-top:40px;
-	border-bottom:1px solid slategray;
-	
-}
-.illustration li{
-	
-	float: left;
-}
-.illustmain{
-	width:28%;
-}
-.iconimg{
-	width:40%;
-}
-.arrowimg{
-	width:5%;
-	padding-top:70px;
-}
-
-
-
-
-/* UTinderを始める
-------------------------------------------------------------*/
-#sec02{
-	margin:0 auto;
-}
-.twoways{
-	
-	width: 60%;
-	
-	
-	padding: 0 40px;
 	text-align:center;
-	clear: both;
-	
-	margin:0 auto;
 	
 }
-.twoways h2{
-	font-size:22px;
-}
-.explanation{
-	
-	padding:20px;
-	margin:0 auto;
-	
-
-}
-/*
-.twoways ul{
-	display: flex;
-	margin: 0 auto;
-	
-}
-*/
-.twoways li{
-	list-style: none;
-	/*予約制のみバージョン*/
-	width:70%;
-	margin:0 auto;
-}
-
-.startnow{
-	padding:10px;
-	
-}
-.startnow h2{
-	
-	text-decoration: underline cyan;
-	
-}
-.condition{
-	padding:10px;
-	
-}
-.condition h2{
-	
-	text-decoration: underline  crimson;
-}
-.startnowimg{
-	width:90%;
-	
-}
-.conditionimg{
-	width: 90%;
-	
-}
-
-
-
-
-.email{
-	width: 90%;
-	margin-top:10px;
-	margin-bottom: 10px;
-	padding:5px;
-	font-size: 18px;
-	border:1px solid #dee7ec
-}
+/*リンクボタンを作る際の設定（背景色追加してね）*/
 .btn{
 	
 	height:50px;
@@ -248,17 +123,29 @@ section h2{
 	opacity: 0.5;
 }
 
-.nowstart{
-	width:200px;
-	background-color: cyan;
-	opacity: 1;
-}
-.conditionstart{
-	width:200px;
-	background-color: crimson;
-	opacity: 1;
+/* sec01
+------------------------------------------------------------*/
+#sec01{
+	margin:0 auto;
+	
 }
 
+
+.first{
+
+}
+
+/* sec02
+------------------------------------------------------------*/
+#sec02{
+	margin:0 auto;
+	
+}
+
+
+.second{
+	
+}
 
 
 /* フッタ―設定----------------------------------------------*/
@@ -356,19 +243,6 @@ section h2{
 	.twoways li{
 		width:100%;
 		margin:0 auto;
-	}
-	.illustration{
-		border-bottom: none;
-		height: 850px;
-	}
-	.illustmain{
-		width:100%;
-	}
-	.arrowimg {
-		opacity:0;
-	}
-	.aboututinder{
-		
 	}
 	
 }
@@ -489,13 +363,7 @@ section h2{
 		transform: rotate(45deg);
 	}
 	
-	.illustration{
-		
-		height: 300px;
-	}
-	.twoways{
-		width:90%;
-	}
+	
 }
 
 
